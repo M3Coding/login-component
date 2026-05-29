@@ -5,13 +5,13 @@ function Login () {
                 <form>
                     <label>
                         Username/Email: 
-                        <input type="text" />
+                        <input type="text" id="username" className="username" name="username" />
                         
                     </label>
                     
                     <label>
                         🔑Password:
-                        <input type="password"/>
+                        <input type="password" id="password" className="password" name="passowrd"/>
                     </label>
                     <a> <p>Forgot Username or Password?</p></a>
                     
